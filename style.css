@@ -27,3 +27,11 @@ body {
   color: white;
   user-select: none;
 }
+
+.computer-deck {
+  background-color: #fc766aff;
+}
+
+.player-deck {
+  background-color: #5b84b1ff;
+}

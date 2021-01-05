@@ -55,6 +55,14 @@ body {
   font-size: 4rem;
 }
 
+.card.red {
+    color: red;
+}
+
+.card.black {
+    color: black;
+}
+
 .card::before,
 .card::after {
   position: absolute;

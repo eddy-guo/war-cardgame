@@ -78,6 +78,12 @@ function flipCards() {
     playerDeck.push(playerCard);
     computerDeck.push(computerCard);
   }
+
+  if (isGameOver(playerDeck)) {
+    text.innerText = "Defeat";
+  } else if (isGameOver(computerDeck)) {
+    text.innerText = "Victory";
+  }
 }
 
 function updateDeckCount() {
@@ -87,4 +93,8 @@ function updateDeckCount() {
 
 function roundWinner(cardOne, cardTwo) {
   return CARD_VALUE_MAP[cardOne.value] > CARD_VALUE_MAP[cardTwo.value];
+}
+
+function isGameOver(deck) {
+  return deck.numberOfCards === 0;
 }

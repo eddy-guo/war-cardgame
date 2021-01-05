@@ -71,3 +71,7 @@ function updateDeckCount() {
   computerDeckElement.innerText = computerDeck.numberOfCards;
   playerDeckElement.innerText = playerDeck.numberOfCards;
 }
+
+function roundWinner(cardOne, cardTwo) {
+  return CARD_VALUE_MAP[cardOne.value] > CARD_VALUE_MAP[cardTwo.value];
+}

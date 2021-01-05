@@ -1,3 +1,5 @@
+const SUITS = ['♠', '♥', '♦', '♣']
+
 class Deck {
   constructor(cards) {
     this.cards = [];

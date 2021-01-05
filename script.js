@@ -65,6 +65,20 @@ function flipCards() {
   computerCardSlot.appendChild(computerCard.getHTML());
 
   updateDeckCount();
+
+  if (roundWinner(playerCard, computerCard)) {
+    text.innerText = "You Win! 😊";
+    playerDeck.push(playerCard);
+    playerDeck.push(computerCard);
+  } else if (roundWinner(computerCard, playerCard)) {
+    text.innerText = "You Lose! 😢";
+    computerDeck.push(playerCard);
+    computerDeck.push(computerCard);
+  } else {
+    text.innerText = "Draw!";
+    playerDeck.push(playerCard);
+    computerDeck.push(computerCard);
+  }
 }
 
 function updateDeckCount() {

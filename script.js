@@ -22,9 +22,14 @@ const computerDeckElement = document.querySelector(".computer-deck");
 const playerDeckElement = document.querySelector(".player-deck");
 const text = document.querySelector(".text");
 
-let playerDeck, computerDeck;
+let playerDeck, computerDeck, inRound, stop;
 
 document.addEventListener("click", () => {
+  if (stop) {
+    startGame();
+    return;
+  }
+
   if (inRound) {
     cleanBefore();
   } else {
@@ -41,6 +46,7 @@ function startGame() {
   playerDeck = new Deck(deck.cards.slice(0, deckMidpoint));
   computerDeck = new Deck(deck.cards.slice(deckMidpoint, deck.numberOfCards));
   inRound = false;
+  stop = false;
 
   cleanBefore();
 }
@@ -81,8 +87,10 @@ function flipCards() {
 
   if (isGameOver(playerDeck)) {
     text.innerText = "Defeat";
+    stop = true;
   } else if (isGameOver(computerDeck)) {
     text.innerText = "Victory";
+    stop = true;
   }
 }
 

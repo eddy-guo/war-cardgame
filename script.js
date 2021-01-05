@@ -23,7 +23,6 @@ const playerDeckElement = document.querySelector(".player-deck");
 const text = document.querySelector(".text");
 
 let playerDeck, computerDeck;
-let inRound = false;
 
 document.addEventListener("click", () => {
   if (inRound) {

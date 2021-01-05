@@ -35,3 +35,10 @@ body {
 .player-deck {
   background-color: #5b84b1ff;
 }
+
+.text {
+  grid-column: span 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

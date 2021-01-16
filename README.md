@@ -11,13 +11,13 @@ Visit the deployed site here: https://warcardgame.vercel.app/
 On pageload, the game starts with 26 cards per player, both decks face down. Once you click on your blue deck, the game starts! Each player turns up a card at the same time and the player with the higher card takes both cards and puts them, face down, on the bottom of their deck. If both cards are the same, both players take their respective card and puts them back on the bottom of their own deck. 
 
 Once you click the blue deck to start playing, the deck counter will update immediately and remove one card from each deck. If you win, the following message will pop up;
-<p align="center"><img src="https://i.imgur.com/kwsjriL.png" height="200" alt="win"></p>
+<p align="center"><img src="https://i.imgur.com/kwsjriL.png" height="300" alt="win"></p>
 
 If you tie, 
-<p align="center"><img src="https://i.imgur.com/Oigvr8r.png" height="200" alt="draw"></p>
+<p align="center"><img src="https://i.imgur.com/Oigvr8r.png" height="300" alt="draw"></p>
 
 If you lose...
-<p align="center"><img src="https://i.imgur.com/grNXBF6.png" height="200" alt="lose"></p>
+<p align="center"><img src="https://i.imgur.com/grNXBF6.png" height="300" alt="lose"></p>
 
 Clicking the blue deck again will end the round, causing the cards on the playing field to disappear into the bottom of the decks their supposed to go into, and the deck counter will automatically update again relative to the result of the previous round.
 

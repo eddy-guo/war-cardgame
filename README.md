@@ -10,16 +10,19 @@ Visit the deployed site here: https://warcardgame.vercel.app/
 
 On pageload, the game starts with 26 cards per player, both decks face down. Once you click on your blue deck, the game starts! Each player turns up a card at the same time and the player with the higher card takes both cards and puts them, face down, on the bottom of their deck. If both cards are the same, both players take their respective card and puts them back on the bottom of their own deck. 
 
-After one round, the deck counter is automatically updated - if the blue deck won the first round of the game, the card count is updated from 26-26 to 27-25. 
-<p align-"center><img src="https://i.imgur.com/ZGYlq1N.png" alt="counter_update"></p>
+Once you click the blue deck to start playing, the deck counter will update immediately and remove one card from each deck. If you win, the following message will pop up;
+<p align="center"><img src="https://i.imgur.com/kwsjriL.png" alt="win"></p>
 
-ddd
+If you tie, 
+<p align="center"><img src="https://i.imgur.com/grNXBF6.png" alt="lose"></p>
 
-<p align="center">
-<img src="https://i.imgur.com/kwsjriL.png" alt="win">
-<img src="https://i.imgur.com/grNXBF6.png" alt="lose">
-<img src="https://i.imgur.com/Oigvr8r.png" alt="draw">
-</p>
+If you lose...
+<p align="center"><img src="https://i.imgur.com/Oigvr8r.png" alt="draw"></p>
+
+Clicking the blue deck again will end the round, causing the cards on the playing field to disappear into the bottom of the decks their supposed to go into, and the deck counter will automatically update again relative to the result of the previous round.
+
+For example, if you won the first round, the counter will now display 27-25 instead of the original 26-26. 
+<p align="center"><img src="https://i.imgur.com/ZGYlq1N.png" alt="counter_update"></p>
 
 ## Rules
 

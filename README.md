@@ -19,17 +19,14 @@ If you tie,
 If you lose...
 <p align="center"><img src="https://i.imgur.com/grNXBF6.png" height="400" alt="lose"></p>
 
-Clicking the blue deck again will end the round, causing the cards on the playing field to disappear into the bottom of the decks their supposed to go into depending on the status of the previous round, and the deck counter will automatically update again relative to the result of the previous round.
+Clicking the blue deck again will end the round, and the cards on the playing field will be moved to their respective decks depending on the result of the previous round. The deck counter will then automatically update.
 
 For example, if you won the first round, the counter will now display 27-25 instead of the original 26-26. 
 <p align="center"><img src="https://i.imgur.com/ZGYlq1N.png" height="400" alt="counter_update"></p>
-
-## Game Rules
-
-Full rulebook can be found here: https://bicyclecards.com/how-to-play/war/
 
 ## Built With
 
 ## Acknowledgements
 
+- Full rulebook can be found here: https://bicyclecards.com/how-to-play/war/
 - JavaScript30 ( https://github.com/wesbos/JavaScript30 ) for implementation tutorial.

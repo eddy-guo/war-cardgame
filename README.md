@@ -10,9 +10,9 @@ Visit the deployed site here: https://warcardgame.vercel.app/
 
 On pageload, the game starts with 26 cards per player, both decks face down. Once you click on your blue deck, the game starts! Each player turns up a card at the same time and the player with the higher card takes both cards and puts them, face down, on the bottom of his deck.
 
-<img src="https://i.imgur.com/ryLsr5T.png" width="400" alt="win">
-<img src="https://i.imgur.com/8OKSZdk.png" width="400" alt="lose">
-<img src="https://i.imgur.com/uxGypdh.png" width="400" alt="tie">
+<img src="https://i.imgur.com/VSkBWx8.png" width="400" alt="win">
+<img src="https://i.imgur.com/iHvnzn4.png" width="400" alt="lose">
+<img src="https://i.imgur.com/fKmOUt4.png" width="400" alt="tie">
 
 ## Built With
 

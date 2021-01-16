@@ -16,6 +16,7 @@ const CARD_VALUE_MAP = {
   A: 14,
 };
 
+const gamePlay = document.querySelector(".player-deck");
 const computerCardSlot = document.querySelector(".computer-card-slot");
 const playerCardSlot = document.querySelector(".player-card-slot");
 const computerDeckElement = document.querySelector(".computer-deck");
@@ -24,7 +25,7 @@ const text = document.querySelector(".text");
 
 let playerDeck, computerDeck, inRound, stop;
 
-document.addEventListener("click", () => {
+gamePlay.addEventListener("click", () => {
   if (stop) {
     startGame();
     return;
